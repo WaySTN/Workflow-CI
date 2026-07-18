@@ -1,0 +1,14 @@
+name: stroke-risk-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9.0
+  - pip
+  - pip:
+    - mlflow==2.19.0
+    - scikit-learn>=1.3.0
+    - pandas>=2.0.0
+    - numpy>=1.24.0
+    - matplotlib>=3.7.0
+    - imbalanced-learn>=0.11.0
